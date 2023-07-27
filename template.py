@@ -5,7 +5,7 @@ import logging
 logging.basicConfig(level=logging.INFO, format='[%(asctime)s]: %(message)s:')
 
 
-project_name = "DRTA"
+project_name = "MDA"
 
 list_of_files = [
     ".github/workflows/.gitkeep",
@@ -13,7 +13,6 @@ list_of_files = [
     f"__init__.py",
     f"data/data",
     f"src/__init__.py",
-    f"src/main.py",
     f"src/dictionary.py",
     f"tests/__init__.py",
     f"tests/test_dictionary.py",
